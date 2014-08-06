@@ -1,5 +1,5 @@
 <?php
-include_once "parser.php";include_once "parser.php";
+include_once "parser.php";
 
 /*Перенос последних курсов в массива из MySQL*/
 $mysqli = new mysqli("localhost", "root", "", "excdb");
