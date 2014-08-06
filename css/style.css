@@ -1,0 +1,78 @@
+body{
+    font-family:Georgia, Verdana, Geneva, sans-serif;
+    font-size:14px;
+}
+#container{
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+}
+#userName{
+    margin-top:5px;
+}
+
+#label{
+    text-align:center;
+    font-size:20px;
+}
+.table-div{
+    text-align:center;
+}
+table#tableMain{
+    border-collapse:collapse; /*  Убираем двойные линии между ячейками */
+    width:360px;
+    text-align:center;
+    margin-left:73px;
+}
+.bold{
+    font-weight:bold;
+}
+
+.imgButton{
+    width:90px;
+}
+table.tableAdmin{
+    width:650px;
+/*    margin-left:-70px;*/
+}
+td, th{
+    padding:4px; /* Поля в ячейках */
+}
+.small{
+    font-size:14px;
+
+}
+#button{
+    font-family:Georgia, Verdana, Geneva, sans-serif;
+    font-size:14px;
+    width:352px;
+    margin-left:5px;
+}
+#button2{
+    font-family:Georgia, Verdana, Geneva, sans-serif;
+    font-size:14px;
+    width:342px;
+    margin-left:5px;
+}
+#error{
+    color:red;
+    margin-top:5px;
+    font-size:15px;
+}
+#success{
+    color:darkgreen;
+    margin-top:5px;
+    font-size:15px;
+}
+.img{
+    position:relative;
+    top:2px;
+}
+#sign1, #sign2{
+    width:20px;
+    text-align:center;
+    display:inline;
+}
+#value1,#value2 {
+    width:110px;
+}
